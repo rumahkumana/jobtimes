@@ -25,5 +25,6 @@
     <string name="error_no_sensor">Error : no sensor</string>
     <string name="label_proximity">Proximity Sensor: %1$.2f</string>
     <string name="label_light">Light Sensor: %1$.2f</string>
+    <string name="judul_lamaran">Enter message details:</string>
 
 </resources>

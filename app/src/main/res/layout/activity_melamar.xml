@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/judul_lamaran"
+            android:textSize="10pt"></TextView>
+
+        <EditText
+            android:id="@+id/editjudul"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Judul"
+            android:inputType="textPersonName"></EditText>
+
+        <TextView
+            android:id="@+id/hintPesan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Masukan Pesan:"
+            android:textSize="8pt"></TextView>
+
+        <EditText
+            android:id="@+id/edit_pesan"
+            android:layout_width="fill_parent"
+            android:layout_height="217dp"
+            android:layout_margin="10dp"
+            android:inputType="textMultiLine"
+            android:lines="5"></EditText>
+
+        <Button
+            android:id="@+id/kirim_pesan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Kirim Pesan"></Button>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

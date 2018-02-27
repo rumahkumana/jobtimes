@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,6 +38,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener, 
     TextView mFindUs;
     FusedLocationProviderClient mFusedLocationClient;
     SearchView searchView;
+    ImageView lamaran;
+    ImageView melamar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +55,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener, 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        lamaran = (ImageView) findViewById(R.id.lamaran);
+        melamar = (ImageView) findViewById(R.id.melamar);
         // Set up user display name
         Intent intent = getIntent();
         userDisplayname = findViewById(R.id.userDisplayName);
@@ -68,6 +73,23 @@ public class Profile extends AppCompatActivity implements View.OnClickListener, 
 
         // Set up geolocation
         getLocation();
+
+        //onclick listener
+        melamar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Profile.this, MelamarActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        lamaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Profile.this, LamaranActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void onSaveInstanceState(Bundle outState) {

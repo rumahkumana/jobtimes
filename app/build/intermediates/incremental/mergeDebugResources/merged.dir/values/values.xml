@@ -691,8 +691,6 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -741,7 +739,6 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <dimen name="fab_margin">16dp</dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -774,7 +771,6 @@
     <dimen name="preference_seekbar_padding_end">22dp</dimen>
     <dimen name="preference_seekbar_padding_start">0dp</dimen>
     <dimen name="preference_seekbar_value_width">36dp</dimen>
-    <dimen name="row_padding_vertical">10dp</dimen>
     <dimen name="search_bar_filter_section_marin_left">64dp</dimen>
     <dimen name="search_bar_height">48dp</dimen>
     <dimen name="search_bar_left_icon_left_margin">4dp</dimen>
@@ -911,6 +907,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_screen_act">HomeScreenActivity</string>
     <string name="invalid_lat_long_used">Invalid latitude/longitude</string>
+    <string name="judul_lamaran">Enter message details:</string>
     <string name="label_light">Light Sensor: %1$.2f</string>
     <string name="label_proximity">Proximity Sensor: %1$.2f</string>
     <string name="loading">Loading ...</string>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "D:\\TUBES PBD\\android\\JobTimes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/982bf506e6e9a22843f9b6f6fbd0e126/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\GE60\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\7379597315f5bd63cda94c4b816a45b0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\GE60\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6693e43917b1d120213e6bb0e35d276f\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

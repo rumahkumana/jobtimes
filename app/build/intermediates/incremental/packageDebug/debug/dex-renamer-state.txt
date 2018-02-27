@@ -1,4 +1,4 @@
-#Tue Feb 27 15:35:00 WIB 2018
-base.0=/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Feb 27 15:56:54 GMT+07:00 2018
+base.0=D\:\\TUBES PBD\\android\\JobTimes\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

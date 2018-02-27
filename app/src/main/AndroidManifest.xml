@@ -72,6 +72,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Profile" />
         </activity>
+        <activity android:name=".MelamarActivity" />
+        <activity android:name=".LamaranActivity" />
+
         <activity android:name=".SingleListItem"></activity>
         <activity android:name="com.jobtimes.android.AlarmActivity">
             android:parentActivityName=".Profile">
