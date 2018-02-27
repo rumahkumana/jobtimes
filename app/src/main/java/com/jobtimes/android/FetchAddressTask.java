@@ -25,8 +25,8 @@ public class FetchAddressTask extends AsyncTask<Location, Void, String> {
     FetchAddressTask(Context applicationContext, OnTaskCompleted listener) {
         mContext = applicationContext;
         mListener = listener;
-    } @
-            Override
+    }
+    @Override
     protected String doInBackground(Location... params) {
         Geocoder geocoder = new Geocoder(mContext,
                 Locale.getDefault());

@@ -14,8 +14,10 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.SearchView;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
@@ -40,6 +42,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener, 
     SearchView searchView;
     ImageView lamaran;
     ImageView melamar;
+    Switch mSwitch;
+    boolean seeker = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +51,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener, 
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         Boolean switchPref = sharedPref.getBoolean(SettingsActivity.KEY_PREF_STYLE_SWITCH, false);
         boolean useDarkTheme = switchPref;
+        mSwitch = (Switch) findViewById(R.id.seeker_switch);
+        mSwitch.setChecked(true);
 
         if (useDarkTheme) {
             setTheme(R.style.AppTheme_Dark);
@@ -90,6 +96,22 @@ public class Profile extends AppCompatActivity implements View.OnClickListener, 
                 startActivity(intent);
             }
         });
+
+        mSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                // do something, the isChecked will be
+                // true if the switch is in the On position
+                changeSeeker(isChecked);
+            }
+        });
+
+
+    }
+
+
+
+    public void changeSeeker(boolean isChecked){
+        this.seeker = isChecked;
     }
 
     public void onSaveInstanceState(Bundle outState) {
