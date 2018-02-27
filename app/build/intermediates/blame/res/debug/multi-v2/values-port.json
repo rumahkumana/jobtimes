@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rumahkumana/AndroidStudioProjects/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/abd6b7f696188d9c2642a8005d0353a5/res/values-port/values-port.xml",
+                    "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

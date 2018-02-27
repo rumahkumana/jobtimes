@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "220702187645",
+    "firebase_url": "https://tubes-pbd-195107.firebaseio.com",
+    "project_id": "tubes-pbd-195107",
+    "storage_bucket": "tubes-pbd-195107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220702187645:android:6eb127b141f766e6",
+        "android_client_info": {
+          "package_name": "com.jobtimes.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220702187645-jv0k145c45at4ab7l3bm78togiljplde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnDSPiBnoEXtkPrUm10JlTCCUHUXe-Y6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

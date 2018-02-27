@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">JobTimes</string>
+    <string name="loading">Loading ...</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In with Google</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="signed_out">You\'re signed out</string>
+    <string name="emailpassword_status_fmt">Welcome, %1$s ! Verified : %2$b</string>
+    <string name="firebase_status_fmt">Firebase Uid: %1$s</string>
+    <string name="default_notification_channel_id">8080</string>
+    <string name="home_screen_act">HomeScreenActivity</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude/longitude</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_found">Address found</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="LOCATION_PERMISSION_GRANTED">Coarse Location Permission Granted</string>
+    <string name="LOCATION_PERMISSION_DENIED">Location Permission Denied</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="location_text">Address: %1$s \n Timestamp: %2$tr</string>
+    <string name="no_location">No Location</string>
+    <string name="style_switch">Turn on the switch to use the night mode</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="address">Address Text</string>
+    <string name="error_no_sensor">Error : no sensor</string>
+    <string name="label_proximity">Proximity Sensor: %1$.2f</string>
+    <string name="label_light">Light Sensor: %1$.2f</string>
+
+</resources>
