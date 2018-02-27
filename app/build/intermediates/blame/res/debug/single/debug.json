@@ -24,12 +24,12 @@
         "source": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
-        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
+        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -64,20 +64,20 @@
         "source": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/src/main/res/layout/item.xml"
     },
     {
-        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
-        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/anim/abc_fade_in.xml"
-    },
-    {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/e6cb5e5cbfaf9b4daee047d820bc9a85/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
+        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/layout_floating_search_layout.xml.flat",
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/floatingsearchview-2.1.1.aar/fb6889928f62fe2a21cc7fd513e6e30d/res/layout/floating_search_layout.xml"
+    },
+    {
+        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/e6cb5e5cbfaf9b4daee047d820bc9a85/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
@@ -156,12 +156,12 @@
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -172,12 +172,12 @@
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/floatingsearchview-2.1.1.aar/fb6889928f62fe2a21cc7fd513e6e30d/res/layout/action_item_layout.xml"
     },
     {
-        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/rumahkumana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/14a93ee7ed794082c082d199ea6b8c88/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/rumahkumana/AndroidStudioProjects/JobTimesDemo/JobTimes/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",

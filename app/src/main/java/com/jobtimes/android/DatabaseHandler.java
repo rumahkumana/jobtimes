@@ -8,6 +8,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import org.json.JSONObject;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -53,6 +55,11 @@ public class DatabaseHandler {
      * @param Location Lokasi penyimpanan di database relatif terhadap root
      * @param Value    Objek yang akan disimpan di database
      */
+    protected void writeTo(String Location, String Value) {
+        mDatabase.child(Location).setValue(Value);
+    }
+
+
     protected void writeTo(String Location, Object Value) {
         mDatabase.child(Location).setValue(Value);
     }
@@ -70,7 +77,7 @@ public class DatabaseHandler {
         return mDatabase;
     }
 
-    public void writeNewJobPost(String username, String message) {
+    public void writeNewJobPost(String username, JSONObject message) {
         writeTo("/JobPost/" + username, message);
     }
 

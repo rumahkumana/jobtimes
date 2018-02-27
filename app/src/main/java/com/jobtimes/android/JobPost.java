@@ -1,18 +1,27 @@
 package com.jobtimes.android;
 
+import android.renderscript.Sampler;
+
+import com.firebase.jobdispatcher.Job;
+
+import org.json.JSONObject;
+
+import java.util.HashMap;
+
 /**
  * Created by rumahkumana on 27/02/18.
  */
 
 public class JobPost {
-    private String mUsername, mMessage;
+    public String mUsername, mMessage, mTitle;
 
     public JobPost() {
     }
 
-    public JobPost(String username, String message) {
+    public JobPost(String username, String message, String title) {
         this.mUsername= username;
         this.mMessage = message;
+        this.mTitle = title;
     }
 
     public String getUsername() {
@@ -25,6 +34,10 @@ public class JobPost {
 
     public String getMessage() {
         return mMessage;
+    }
+
+    public String getTitle() {
+        return mTitle;
     }
 
     public void setMessage(String message) {
